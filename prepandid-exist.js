@@ -1,6 +1,6 @@
 module.exports = function(HTMLHint) {
     HTMLHint.addRule({
-        id: 'prepandid-exist',
+        id: 'prependid-exist',
         description: 'id id-exist rule.',
         init: function(parser, reporter) {
             var self = this;
